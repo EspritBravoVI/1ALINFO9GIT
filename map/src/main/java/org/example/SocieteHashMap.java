@@ -10,12 +10,12 @@ public class SocieteHashMap implements InterfaceSociete {
 
   @Override
   public void ajouterEmployeDepartement(Employe e, Departement d) {
-    empdepmap.put(e, d);
+    empdepmap.put(d, e);
   }
 
   @Override
   public void supprimerEmploye(Employe e) {
-    empdepmap.remove(e);
+    empdepmap.remove(d);
   }
 
   @Override
