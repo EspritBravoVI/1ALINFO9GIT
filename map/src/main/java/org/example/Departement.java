@@ -42,6 +42,7 @@ public class Departement {
     }
 
     @Override
+    //override equals function
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
