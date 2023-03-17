@@ -10,7 +10,7 @@ public class SocieteHashMap implements InterfaceSociete {
 
     @Override
     public void ajouterEmployeDepartement(Employe e, Departement d) {
-
+        empdepmap.put(e, d);
     }
 
     @Override
