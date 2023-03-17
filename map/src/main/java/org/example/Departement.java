@@ -12,18 +12,22 @@ public class Departement {
         this.id = id;
         this.nom = nom;
     }
-     // getting user id
+
+    // getting user id
     public String getId() {
         return id;
     }
+
     // getting user name
     public String getNom() {
         return nom;
     }
+
     // getting user name
     public void setId(String id) {
         this.id = id;
     }
+
     // setting user id
     public void setNom(String nom) {
         this.nom = nom;
@@ -32,9 +36,9 @@ public class Departement {
     @Override
     public String toString() {
         return "Departement{" +
-            "id='" + id + '\'' +
-            ", nom='" + nom + '\'' +
-            '}';
+                "id='" + id + '\'' +
+                ", nom='" + nom + '\'' +
+                '}';
     }
 
     @Override
@@ -46,5 +50,5 @@ public class Departement {
     }
 
 
-    }
+}
 }
