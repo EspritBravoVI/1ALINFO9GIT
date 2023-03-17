@@ -18,6 +18,7 @@ public class SocieteHashMap implements InterfaceSociete {
     empdepmap.remove(d);
   }
 
+
   @Override
   public void afficherLesEmployesLeursDepartements() {
     for (Map.Entry<Employe, Departement> mp : empdepmap.entrySet()) {
@@ -40,6 +41,7 @@ public class SocieteHashMap implements InterfaceSociete {
   public void afficherDepartement(Employe e) {
 
   }
+
 
   @Override
   public boolean rechercherEmploye(Employe e) {
