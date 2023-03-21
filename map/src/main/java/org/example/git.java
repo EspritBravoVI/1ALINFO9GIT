@@ -77,5 +77,5 @@ class Git {
 
     public Git() {
     }
-  // adding a commit on main branch
+  // adding a commit on main branch to be reverted
 }
