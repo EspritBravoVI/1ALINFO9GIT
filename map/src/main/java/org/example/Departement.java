@@ -3,7 +3,7 @@ package org.example;
 import java.util.Objects;
 
 public class Departement {
-    private String id, nom;
+    private String id, nom , section ;
 
     public Departement() {
     }
@@ -11,6 +11,11 @@ public class Departement {
     public Departement(String id, String nom) {
         this.id = id;
         this.nom = nom;
+    }
+    public Departement(String id, String nom,String section ) {
+        this.id = id;
+        this.nom = nom;
+        this.section=section;
     }
 
     // getting user id
@@ -32,12 +37,22 @@ public class Departement {
     public void setNom(String nom) {
         this.nom = nom;
     }
+    // getting user name
+    public void setsection(String section) {
+        this.section = section;
+    }
+
+    // setting user id
+    public void getSection(String section) {
+        this.section = section;
+    }
 
     @Override
     public String toString() {
         return "Departement{" +
                 "id='" + id + '\'' +
                 ", nom='" + nom + '\'' +
+                 ", section='" + section + '\'' +
                 '}';
     }
 
